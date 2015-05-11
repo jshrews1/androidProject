@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/gradient" >
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:weightSum="100"
+    android:gravity="center"
+    android:padding="20dp">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            
+            android:ems="10"
+            android:hint="Enter MyId"
+            android:padding="25dp"
+            android:background="@drawable/textbox"
+             >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+      <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:weightSum="100"
+     android:gravity="center">
+
+          <Button
+              android:id="@+id/regButton"
+              android:layout_width="70dp"
+              android:layout_height="36dp"
+              android:layout_weight="10.43"
+              android:background="@drawable/button"
+              android:gravity="center"
+              android:shadowColor="#ffffff"
+              android:shadowDx="0"
+              android:shadowDy="0"
+              android:shadowRadius="0"
+              android:text="Login"
+              android:textColor="#FFFFFF"
+              android:textSize="17sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
